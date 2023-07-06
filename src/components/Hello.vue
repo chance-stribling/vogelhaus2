@@ -1,13 +1,15 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+// eslint-disable-next-line vue/multi-word-component-names
 <template>
   <div class="hello">
-    <v-card class="mx-auto elevation-8 card" max-width="900px" min-width="900px" color="orange">
+    <v-card class="mx-auto elevation-8 card text-white" color="#2f4a66">
       <v-card-text>
-        <div class="text-h3">Welcome to</div>
-        <div class="text-h1 my-5">
-          VOGELHAUS
-          <v-icon icon="mdi-bird"></v-icon>
+        <div class="text-h5 my-5" >Welcome to the...</div>
+        <div class="text-h4 my-5">
+            BIS: UPDATE MANAGER
+          <v-icon icon="mdi-check-network"></v-icon>
         </div>
-        <div class="text-h6">The ultimate house manager.</div>
+        <div class="text-h6 my-5">The ultimate tool for supervising our monthly updates.</div>
       </v-card-text>
     </v-card>
   </div>
@@ -19,9 +21,7 @@ export default {
 </script>
 <style scoped>
 .card {
-  margin-top: 25vh;
-}
-.hello {
-  width: 100%;
+  margin-top: 1vh;
+  width: 99vw;
 }
 </style>

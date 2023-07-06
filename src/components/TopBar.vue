@@ -1,7 +1,21 @@
+<!-- eslint-disable vue/valid-v-for -->
 <template>
-  <v-app-bar color="orange" density="compact">
-    <v-app-bar-title>Vogelhaus</v-app-bar-title>
-
+  <v-app-bar color="#2f4a66" class="text-white" density="compact">
+    <v-app-bar-title>Update Manager</v-app-bar-title>
+    <template v-slot:prepend>
+      <v-app-bar-nav-icon  @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </template>
+    <v-navigation-drawer
+      v-model="drawer"
+      location="left"
+      class="text-black"
+      temporary
+      
+    >
+      <v-list
+        :items="items"
+      ></v-list>
+    </v-navigation-drawer>
     <template v-slot:append>
       <v-menu transition="scale-transition">
         <template v-slot:activator="{ props }">
@@ -18,7 +32,32 @@
 <script>
 export default {
   data: () => ({
-    items: [{ title: 'logout', path: '/' }]
-  })
+    drawer: false,
+      group: null,
+      items: [
+        {
+          title: 'Foo',
+          value: 'foo',
+        },
+        {
+          title: 'Bar',
+          value: 'bar',
+        },
+        {
+          title: 'Fizz',
+          value: 'fizz',
+        },
+        {
+          title: 'Buzz',
+          value: 'buzz',
+        },
+      ],
+    }),
+
+    watch: {
+      group () {
+        this.drawer = false
+      },
+    },
 }
 </script>
