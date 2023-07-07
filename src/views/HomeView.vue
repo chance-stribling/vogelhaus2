@@ -1,7 +1,7 @@
 <script setup>
-import Hello from '../components/Hello.vue'
+import HelloCard from '../components/HelloCard.vue'
 </script>
 
 <template>
-  <Hello />
+  <HelloCard />
 </template>

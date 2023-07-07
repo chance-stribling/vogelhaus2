@@ -35,7 +35,7 @@
 .row {
   margin-top: 10vh;
 }
-.image{
+.image {
   background-image: url('../assets/bis-logo.png');
   height: 100px;
   width: 100px;

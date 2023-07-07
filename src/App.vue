@@ -1,11 +1,11 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import TopBar from './components/TopBar.vue';
+import TopBar from './components/TopBar.vue'
 </script>
 
 <template>
   <v-app app>
-    <TopBar/>
+    <TopBar />
     <v-container fluid class="pa-0">
       <v-main>
         <RouterView />

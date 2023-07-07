@@ -4,9 +4,7 @@
     <v-col align="center">
       <v-card class="card" width="600px" color="#2f4a66">
         <v-card-text>
-          <div class="text-h4 text-white text-center my-5">
-            Register
-          </div>
+          <div class="text-h4 text-white text-center my-5">Register</div>
           <v-responsive class="mx-auto" max-width="344">
             <v-text-field
               class="mt-5"
