@@ -180,7 +180,7 @@ export default {
       },
       {
         id: 11,
-        name: 'Cheatam',
+        name: 'Cheatham',
         east: false,
         phase: 1
       },
@@ -202,7 +202,7 @@ export default {
         east: false,
         phase: 3
       }
-      //cocke15
+      //cocke
       ,
       {
         id: 15,
@@ -224,7 +224,7 @@ export default {
         id: 17,
         name: 'Crockett',
         east: false,
-        phase: 4
+        phase: 3
       }
       // cumberland
       ,
@@ -288,7 +288,7 @@ export default {
         id: 25,
         name: 'Fentress',
         east: false,
-        phase: 4
+        phase: 3
       }
       // franklin
             ,
@@ -312,7 +312,7 @@ export default {
         id: 28,
         name: 'Giles',
         east: false,
-        phase: 4
+        phase: 1
       }
       // grainger
             ,
@@ -320,7 +320,7 @@ export default {
         id: 29,
         name: 'Grainger',
         east: true,
-        phase: 4
+        phase: 3
       }
       // greene
             ,
@@ -336,7 +336,7 @@ export default {
         id: 31,
         name: 'Grundy',
         east: false,
-        phase: 4
+        phase: 2
       }
       // hamblen
             ,
@@ -344,7 +344,7 @@ export default {
         id: 32,
         name: 'Hamblen',
         east: true,
-        phase: 4
+        phase: 3
       }
       // hamilton
             ,
@@ -352,7 +352,7 @@ export default {
         id: 33,
         name: 'Hamilton',
         east: true,
-        phase: 4
+        phase: 5
       }
       // hancock
             ,
@@ -360,7 +360,7 @@ export default {
         id: 34,
         name: 'Hancock',
         east: true,
-        phase: 4
+        phase: 3
       }
       // hardeman
             ,
@@ -408,7 +408,7 @@ export default {
         id: 40,
         name: 'Henry',
         east: false,
-        phase: 4
+        phase: 2
       }
       // hickman
             ,
@@ -440,7 +440,7 @@ export default {
         id: 44,
         name: 'Jackson',
         east: false,
-        phase: 4
+        phase: 3
       }
       // jefferson
             ,
@@ -448,7 +448,7 @@ export default {
         id: 45,
         name: 'Jefferson',
         east: true,
-        phase: 4
+        phase: 3
       }
       // johnson
             ,
@@ -456,7 +456,7 @@ export default {
         id: 46,
         name: 'Johnson',
         east: true,
-        phase: 4
+        phase: 3
       }
       // knox
             ,
@@ -496,7 +496,7 @@ export default {
         id: 51,
         name: 'Lewis',
         east: false,
-        phase: 4
+        phase: 1
       }
       // lincoln
             ,
@@ -520,7 +520,7 @@ export default {
         id: 54,
         name: 'Macon',
         east: false,
-        phase: 4
+        phase: 3
       }
       // madison
             ,
@@ -560,7 +560,7 @@ export default {
         id: 59,
         name: 'Mcminn',
         east: true,
-        phase: 4
+        phase: 3
       }
       // mcnairy
             ,
@@ -568,7 +568,7 @@ export default {
         id: 60,
         name: 'Mcnairy',
         east: false,
-        phase: 4
+        phase: 3
       }
       // meigs
             ,
@@ -576,7 +576,7 @@ export default {
         id: 61,
         name: 'Meigs',
         east: true,
-        phase: 4
+        phase: 3
       }
       // monroe
             ,
@@ -584,7 +584,7 @@ export default {
         id: 62,
         name: 'Monroe',
         east: true,
-        phase: 4
+        phase: 3
       }
       // montgomery
             ,
@@ -592,7 +592,7 @@ export default {
         id: 63,
         name: 'Montgomery',
         east: false,
-        phase: 4
+        phase: 5
       }
       // moore
             ,
@@ -600,7 +600,7 @@ export default {
         id: 64,
         name: 'Moore',
         east: false,
-        phase: 4
+        phase: 3
       }
       // morgan
             ,
@@ -608,7 +608,7 @@ export default {
         id: 65,
         name: 'Morgan',
         east: true,
-        phase: 4
+        phase: 3
       }
       // obion
             ,
@@ -624,7 +624,7 @@ export default {
         id: 67,
         name: 'Overton',
         east: false,
-        phase: 4
+        phase: 3
       }
       // perry
             ,
@@ -632,7 +632,7 @@ export default {
         id: 68,
         name: 'Perry',
         east: false,
-        phase: 4
+        phase: 1
       }
       // pickett
             ,
@@ -640,7 +640,7 @@ export default {
         id: 69,
         name: 'Pickett',
         east: false,
-        phase: 4
+        phase: 3
       }
       // polk
             ,
@@ -688,7 +688,7 @@ export default {
         id: 75,
         name: 'Rutherford',
         east: false,
-        phase: 4
+        phase: 2
       }
       // sctt
             ,
@@ -706,13 +706,13 @@ export default {
         east: false,
         phase: 4
       }
-      // seviewr
+      // sevier
             ,
       {
         id: 78,
         name: 'Sevier',
         east: true,
-        phase: 4
+        phase: 3
       }
       // shelby
             ,
@@ -720,7 +720,7 @@ export default {
         id: 79,
         name: 'Shelby',
         east: false,
-        phase: 4
+        phase: 5
       }
       // smith
             ,
@@ -744,7 +744,7 @@ export default {
         id: 82,
         name: 'Sullivan',
         east: true,
-        phase: 4
+        phase: 2
       }
       // sumner
             ,
@@ -760,7 +760,7 @@ export default {
         id: 84,
         name: 'Tipton',
         east: false,
-        phase: 4
+        phase: 2
       }
       // trousdale
             ,
@@ -768,7 +768,7 @@ export default {
         id: 85,
         name: 'Trousdale',
         east: false,
-        phase: 4
+        phase: 3
       }
       // unicoi
             ,
@@ -776,7 +776,7 @@ export default {
         id: 86,
         name: 'Unicoi',
         east: true,
-        phase: 4
+        phase: 3
       }
       // union
             ,
@@ -784,7 +784,7 @@ export default {
         id: 87,
         name: 'Union',
         east: true,
-        phase: 4
+        phase: 3
       }
       // vaburen
             ,
