@@ -1,8 +1,8 @@
 <template>
-  <v-btn icon="mdi-arrow-left" to="/" variant="outlined" color="black"></v-btn>
+  <v-btn icon="mdi-arrow-left" to="/" variant="plain" color="black"></v-btn>
   <v-row class="row">
     <v-col align="center">
-      <v-card class="card" width="600px" color="#2f4a66">
+      <v-card class="card" width="600px" color="primary">
         <v-card-text>
           <div class="text-h4 text-white text-center my-5">Register</div>
           <v-responsive class="mx-auto" max-width="344">

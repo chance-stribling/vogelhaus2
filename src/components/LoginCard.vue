@@ -1,7 +1,7 @@
 <template>
   <v-row class="row">
     <v-col align="center">
-      <v-card class="card" height="560px" width="600px" color="#2f4a66">
+      <v-card class="card" height="560px" width="600px" color="primary">
         <v-card-text>
           <h1 class="my-10 text-white">BIS: Update Manager</h1>
           <div class="image mx-auto"></div>
@@ -20,7 +20,7 @@
               bg-color="white"
               hide-details="auto"
             ></v-text-field>
-            <v-btn class="mt-5">Enter</v-btn>
+            <v-btn class="mt-5" @click="$router.push('home')">Enter</v-btn>
             <br />
             <v-btn class="mt-5 text-white" height="50px" variant="outlined" to="/register"
               >New User?<br />Register</v-btn
@@ -37,6 +37,7 @@
 }
 .image {
   background-image: url('../assets/bis-logo.png');
+  background-size: cover;
   height: 100px;
   width: 100px;
 }
